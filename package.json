@@ -14,7 +14,8 @@
     "build": "npm run configure && node-gyp build",
     "install": "npm run configure && node-gyp rebuild",
     "configure": "node-gyp configure",
-    "start": "node ./index.js"
+    "start": "node ./index.js",
+    "test": "node test/"
   },
   "repository": {
     "type": "git",
