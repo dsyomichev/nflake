@@ -4,9 +4,10 @@
   "description": "Network ID generation service based on Twitter Snowflakes.",
   "main": "index.js",
   "directories": {},
-  "dependencies": {},
+  "dependencies": {
+    "nan": "^2.11.1"
+  },
   "devDependencies": {
-    "nan": "^2.11.1",
     "node-gyp": "^3.8.0"
   },
   "scripts": {
