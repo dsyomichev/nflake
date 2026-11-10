@@ -1,6 +1,6 @@
-const narwhal = require("../index");
+const NFlake = require("../index");
 
-const worker = new narwhal(1, 1);
+const worker = new NFlake(1, 1);
 
 for (let i = 0; i < 10; i++) {
   let id = worker.id();

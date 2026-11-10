@@ -79,7 +79,7 @@ NAN_METHOD(SnowflakeWorker::New)
 
     if (datacenterId > worker->maxDatacenterId || datacenterId < 0)
     {
-        return Nan::ThrowError(Nan::New("SnowflakeWorker: Datacenter must be between 1 and " + std::to_string(worker->maxDatacenterId)).ToLocalChecked());
+        return Nan::ThrowError(Nan::New("SnowflakeWorker: DatacenterID must be between 1 and " + std::to_string(worker->maxDatacenterId)).ToLocalChecked());
     };
 
     worker->workerId = workerId;

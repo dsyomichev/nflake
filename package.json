@@ -1,9 +1,9 @@
 {
-  "name": "narwhal",
-  "version": "1.0.0",
+  "name": "nflake",
+  "version": "1.0.1",
   "description": "Network ID generation service based on Twitter Snowflakes.",
   "main": "index.js",
-  "directories": {},
+  "directories": { },
   "dependencies": {
     "nan": "^2.11.1"
   },
@@ -19,12 +19,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/Striife/narwhal.git"
+    "url": "git+ssh://git@github.com/dsyomichev/nflake.git"
   },
   "author": "Daniel Syomichev",
-  "private": true,
   "bugs": {
-    "url": "https://gitlab.com/Striife/narwhal/issues"
+    "url": "https://github.com/dsyomichev/nflake/issues"
   },
-  "homepage": "https://gitlab.com/Striife/narwhal#readme"
+  "homepage": "https://gitlab.com/dsyomichev/nflake#readme"
 }
